@@ -73,6 +73,7 @@
 #include "jsl_log.h"
 #include "gettime.h"
 #include "lang/verify.h"
+#include "unistd.h"
 
 const rpcc::TO rpcc::to_max = { 120000 };
 const rpcc::TO rpcc::to_min = { 1000 };
